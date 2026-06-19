@@ -1,0 +1,1 @@
+let btn=document.getElementById("down-btn"),target=document.getElementById("scr-target");console.log("[info] scroll.js loaded!"),btn.addEventListener("click",()=>{var t=target.getBoundingClientRect().top+window.scrollY;window.scrollTo({top:t-100,behavior:"smooth"})});
